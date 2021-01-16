@@ -4,6 +4,7 @@
 .nav{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 .nav a{
     text-decoration: none;
@@ -154,7 +155,32 @@ footer{
     background-color: black;
     color: white;
     padding: 20px;
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    display: flex;
+}
+.square{
+    
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: white;
     text-align: center;
+    line-height: 50px;
+    margin-top: 5px;
+    margin: 5px;
+   
+
+
+
+
 }
 
 
