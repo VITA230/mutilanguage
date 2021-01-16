@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+}
+.nav{
+    list-style: none;
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    /* border: 1px solid red; */
+    padding: 12px;
+    letter-spacing: 2px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    position: fixed;
+    /* 會讓寬度跑掉 補上寬度 */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background: white;
+    z-index: 1;
+    /* 最上層 */
+}
+.nav a:hover{
+   background: rgb(221,221,221); 
+}
+
+.cover {
+    max-width: 1500px;
+    margin: 0 auto;
+    /* 水平置中 */
+    
+}
+.cover img{
+    width: 100%;
+
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+}
+
+.container h2{
+    padding: 15 px 0 ;
+    border-bottom: lightgray 1px solid;
+    font-weight: 400;
+}
+
+.projects .items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.house{
+    width: 200px;
+    position: relative;
+    margin: 10px;
+    flex-basis: 20%;
+    flex-grow: 1;
+    
+}
+
+.house img{
+    width: 100%;
+}
+.house span{
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.items .role{
+    /* border: 1px solid red; */
+    width:300px;
+ }
+
+.items .role img{
+    width:100%;
+    filter: grayscale(70%);
+}
+
+.position{
+    font-size: 14px;
+    color: gray;
+    margin: 15px 0;
+}
+
+.role button{
+    widows: 100%;
+    padding:10px;
+    borger:0;
+    margin:10px 0;
+}
+
+.role .name{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.role button:hover{
+    background: rgb(170,170,170,.5);
+    cursor: pointer;
+
+}
+
+.about .items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.about .items .role{
+    margin: 5px;
+    flex-basis: 20%;
+    flex-grow: 1;
+
+}
+
+.form input{
+    width: 100%;
+    padding:8px;
+    border:1px solid rgb(196,196,196);
+    margin:5px 0;
+}
+
+.form button{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.form
+
+.map{
+    width:100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 1000px){
+    .projects .house{
+        flex-basis: 40%;
+        flex-grow: 1;
+    }
+    .about .items .role{
+        flex-basis: 40%;
+        flex-grow: 1;
+    }
+}   
+@media (max-width: 600px){
+    .projects .house{
+        flex-basis: 90%;
+        flex-grow: 1;
+    } 
+    .about .items .role{
+        flex-basis: 90%;
+        flex-grow: 1;
+    }
+
+}
