@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 5px rgba(0,0,0,.2);
-    position: fixed;
+    /* position: fixed; */
     /* 會讓寬度跑掉 補上寬度 */
     width: 100%;
     box-sizing: border-box;
@@ -156,7 +156,7 @@ footer{
     color: white;
     padding: 20px;
     text-align: center; 
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     display: flex;
