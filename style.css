@@ -1,5 +1,7 @@
 *{
     margin: 0px;
+    text-decoration: none;
+    color: black;
 }
 .nav{
     list-style: none;
@@ -36,6 +38,7 @@ header{
     max-width: 1500px;
     margin: 0 auto;
     /* 水平置中 */
+    font-size:20px;
     
 }
 .cover img{
