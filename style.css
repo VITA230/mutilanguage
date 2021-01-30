@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .nav{
     list-style: none;
@@ -162,8 +163,11 @@ footer{
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+}
+.mapname{
+    padding: 0 20px;
 }
 .link{
     display: flex;

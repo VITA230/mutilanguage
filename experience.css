@@ -1,6 +1,7 @@
 *{
    margin: 0; 
    text-decoration: none;
+   box-sizing: border-box;
 }
 
 .container {
@@ -54,6 +55,13 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+.mapname{
+    padding: 0 20px;
+}
+
+.mapname a {
+    color: white;
+}
 .link{
     display: flex;
 }
@@ -72,3 +80,11 @@ footer{
 
 }
 
+@media(max-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
