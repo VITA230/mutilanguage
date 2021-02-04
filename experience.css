@@ -11,7 +11,9 @@
 
 .cover img {
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
+    /* background-size: 80%; */
+    background-position: center;
 }
 
 .content h1 {
@@ -20,7 +22,7 @@
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .backBtn {
@@ -30,6 +32,7 @@
     display: inline-block;
     padding: 10px 20px;
     text-transform: uppercase;
+    border-radius: 10%;
 }
 
 .backBtn:hover {
