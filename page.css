@@ -78,7 +78,7 @@ header{
     width: 100%;
 }
 .house span{
-    background: black;
+    background: lightgray;
     color: white;
     padding: 8px 15px;
     position: absolute;
