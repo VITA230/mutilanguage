@@ -113,11 +113,15 @@ header{
 .role .name{
     font-size: 20px;
     margin: 5px 0;
+    
 }
 .role button:hover{
     background: rgb(170,170,170,.5);
     cursor: pointer;
 
+}
+.about p{
+    padding: 40px 0;
 }
 
 .about .items{
@@ -209,5 +213,9 @@ footer{
         flex-basis: 90%;
         flex-grow: 1;
     }
-
-}
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
