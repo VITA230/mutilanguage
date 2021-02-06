@@ -85,17 +85,28 @@ header{
     top: 0;
     left: 0;
 }
+.exp_img{
+    width: 100%;
+    height: 236px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
 
-
+.exp_img:hover img{
+    transform: scale(1.2);
+    filter: grayscale(50%);
+    
+}
 .items .role{
     /* border: 1px solid red; */
     width:300px;
  }
 
 .items .role img{
-    width:100%;
-    filter: grayscale(70%);
-}
+    width: 100%;
+    
+    
+} 
 
 .position{
     font-size: 14px;

@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+  *{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-brand img{
+  width: 80px;
+}
+
+
+.bg-light{
+  background: white!important;
+}
+
+header{
+  box-shadow:0 0 3px rgba(0,0,0,0.3);
+}
+
+.container{
+  /* border: 1px red solid;
+  padding: 40px; */
+}
+
+.container h1{
+  text-align: center;
+  margin: 30px;
+}
+
+.divider{
+  height: 1px;
+  border-bottom: 1px solid rgb(230,228,228);
+  margin: 40px 0;
+}
+.category{
+  padding:40px 0;
+}
+
+.products{
+  background: rgba(230,228,228);
+  padding: 40px;
+}
+.form-group-center{
+text-align: center;
+}
+
+
+
+/*
+@media screen and (max-width: 800px) {
+  h1 {
+    color: red;
+  }
+}
+*/
