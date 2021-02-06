@@ -16,6 +16,7 @@
     padding: 12px;
     letter-spacing: 2px;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -214,6 +215,7 @@ footer{
         flex-basis: 40%;
         flex-grow: 1;
     }
+
 }   
 @media (max-width: 600px){
     .projects .house{
@@ -224,6 +226,10 @@ footer{
         flex-basis: 90%;
         flex-grow: 1;
     }
+
+
+
+}    
     footer {
         display: flex;
         justify-content: center;
